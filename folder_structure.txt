@@ -1,0 +1,71 @@
+rgpvprep/
+│
+├── frontend/                   # Client-side (HTML/CSS/JS)
+    ├── pages/                  # Html files
+    │   ├── index.html              # Home page
+    │   ├── about.html              # About page
+    │   ├── contact.html            # Contact page
+    │   ├── contribute.html         # Contribute page
+    │   ├── university-exam.html    # University exam resources
+    │   ├── coding.html             # Coding resources
+    │   ├── community.html          # Community page
+    │   ├── opportunities.html      # Hackathons, internships
+    │   ├── login.html              # Login page
+    │   ├── signup.html             # Signup page
+    │   └── profile.html            # Profile page
+│   │
+│   ├── dashboards/             # Dashboards
+│   │   ├── student.html
+│   │   ├── faculty.html
+│   │   └── admin.html
+│   │
+│   ├── assets/                 # Static files
+│   │   ├── css/
+│   │   │   ├── style.css
+│   │   │   └── dashboard.css
+│   │   ├── js/
+│   │   │   ├── main.js
+│   │   │   ├── auth.js
+│   │   │   └── dashboard.js
+│   │   └── images/             # Logos, icons, etc.
+│   │
+│   └── components/             # Common partials (to reuse)
+│       ├── navbar.html
+│       ├── sidebar.html
+│       └── footer.html
+│
+├── backend/                    # Server-side (Node + Express)
+│   ├── server.js               # App entry
+│   ├── config/
+│   │   ├── db.js               # MongoDB connection
+│   │   └── googleDrive.js      # Google Drive API setup
+│   │
+│   ├── models/                 # MongoDB schemas
+│   │   ├── User.js
+│   │   ├── Resource.js
+│   │   ├── Opportunity.js
+│   │   └── Video.js
+│   │
+│   ├── routes/                 # Express routes
+│   │   ├── authRoutes.js
+│   │   ├── resourceRoutes.js
+│   │   ├── opportunityRoutes.js
+│   │   └── adminRoutes.js
+│   │
+│   ├── controllers/            # Business logic
+│   │   ├── authController.js
+│   │   ├── resourceController.js
+│   │   ├── opportunityController.js
+│   │   └── adminController.js
+│   │
+│   ├── middleware/             # Auth & role checks
+│   │   ├── authMiddleware.js
+│   │   └── roleMiddleware.js
+│   │
+│   ├── utils/                  # Helpers
+│   │   ├── generateToken.js
+│   │   └── errorHandler.js
+│   │
+│   └── package.json
+│
+└── README.md                   # Documentation
