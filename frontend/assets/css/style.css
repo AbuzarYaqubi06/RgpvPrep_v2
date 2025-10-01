@@ -1,0 +1,38 @@
+/* @font-face {
+    font-family: popins;
+    src: url(/Poppins/Poppins-ExtraLight.ttf);
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* :root{ */
+    /* --background-color:#E8ECEB; */
+   
+    /* --text-color:#eae7dc; */
+    /* --text-color2:black; */
+    
+    /* --extra-color:#8fddfe; */
+    /* --extra-color2:#eae7dc; */
+/* } */
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+    font-family: popins;
+    /* position: relative; */
+    /* background-color: var(--text-color2); */
+
+    /* background-color: #E8ECEB; */
+    /* padding: .5rem; */
+    /* overflow: hidden; */
+}
+
+/* body::-webkit-scrollbar{
+    display: none;
+} */
+
