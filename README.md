@@ -110,5 +110,5 @@ If you find RgpvPrep useful, you can:
 ## 📞 Contact
 
 **Author:** Abuzar Yaqubi
-📧 **Email:** [[your-email@example.com](mailto:your-email@example.com)]
-🌐 **GitHub:** [github.com/your-username](https://github.com/your-username)
+📧 **Email:** [[rgpvprep@gmail.com](mailto:rgpvprep@gmail.com)]
+🌐 **GitHub:** [github.com/AbuzarYaqubi06](https://github.com/AbuzarYaqubi06)
