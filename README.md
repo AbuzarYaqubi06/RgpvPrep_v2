@@ -43,13 +43,13 @@ To set up RgpvPrep on your local machine:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/<your-username>/RgpvPrep.git
+   git clone https://github.com/<your-username>/RgpvPrep_v2.git
    ```
 
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd RgpvPrep
+   cd RgpvPrep_v2
    ```
 
 3. **Run with Live Server (VS Code)**
