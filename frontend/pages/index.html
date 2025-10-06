@@ -18,6 +18,51 @@
 
 </head>
 <body>
+    <!-- Navbar -->
+  <div id="navbar"></div>
+
+  <!-- Sidebar -->
+  <div id="sidebar"></div>
+
+
+
     
+    
+  <!-- Main Content -->
+  <main class="content">
+    <section class="welcome">
+      <h1>Welcome to RgpvPrep</h1>
+      <p>Your preparation companion for RGPV exams.</p>
+    </section>
+  </main>
+
+
+
+
+
+    
+  <!-- Footer -->
+  <div id="footer"></div>
+
+
+    
+  <!-- Load Components Script -->
+  <script>
+    async function loadComponent(targetId, filePath) {
+      try {
+        const response = await fetch(filePath);
+        if (!response.ok) throw new Error(`Failed to load ${filePath}`);
+        const html = await response.text();
+        document.getElementById(targetId).innerHTML = html;
+      } catch (error) {
+        console.error(error);
+      }
+    }
+
+    // Load all components (paths relative to index.html)
+    loadComponent("navbar", "../components/navbar.html");
+    loadComponent("sidebar", "../components/sidebar.html");
+    loadComponent("footer", "../components/footer.html");
+  </script>
 </body>
 </html>
